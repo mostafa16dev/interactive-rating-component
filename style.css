@@ -84,7 +84,9 @@ body {
     color: white;
 }
 
-.form-inputs label:active {
+
+.form-inputs label:active,
+.form-inputs input[type="radio"]:checked+label {
     background-color: hsl(217, 12%, 63%);
     color: white;
 }
